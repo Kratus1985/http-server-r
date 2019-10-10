@@ -1,0 +1,37 @@
+{
+  "name": "http-server-r",
+  "version": "1.0.2",
+  "description": "Serve all files",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kratus1985/http-server-r.git"
+  },
+  "keywords": [
+    "server",
+    "http"
+  ],
+  "author": "Kratus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kratus1985/http-server-r/issues"
+  },
+  "homepage": "https://github.com/Kratus1985/http-server-r#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "nodemon": "^1.19.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "corser": "^2.0.1",
+    "ecstatic": "^4.1.2",
+    "http-proxy": "^1.18.0",
+    "union": "^0.5.0"
+  }
+}
