@@ -1,37 +1,55 @@
 {
-  "name": "http-server-r",
-  "version": "1.0.2",
-  "description": "Serve all files",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "http-server-r",
+  "_id": "http-server-r@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-OXsl0zHQhRLCxtJnXCbDJcHsbeTUs3lbjkXmSHRTmXZlQZxH6YydAp7ALG5KOKIG03IKdrNn/9pzlBfruxbG6A==",
+  "_location": "/http-server-r",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "http-server-r",
+    "name": "http-server-r",
+    "escapedName": "http-server-r",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kratus1985/http-server-r.git"
-  },
-  "keywords": [
-    "server",
-    "http"
+  "_requiredBy": [
+    "#USER"
   ],
-  "author": "Kratus",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kratus1985/http-server-r/issues"
-  },
-  "homepage": "https://github.com/Kratus1985/http-server-r#readme",
-  "devDependencies": {
-    "@types/node": "^12.7.12",
-    "nodemon": "^1.19.3",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.4"
+  "_resolved": "https://registry.npmjs.org/http-server-r/-/http-server-r-1.0.2.tgz",
+  "_shasum": "7485e1af375b75a6808a8aeb0612f402b0ad0c61",
+  "_spec": "http-server-r",
+  "_where": "/Users/mariano.castagno",
+  "author": "",
+  "bin": {
+    "http-server-r": "./bin/http-server-r",
+    "hsr": "./bin/http-server-r"
   },
   "dependencies": {
-    "corser": "^2.0.1",
-    "ecstatic": "^4.1.2",
-    "http-proxy": "^1.18.0",
-    "union": "^0.5.0"
-  }
+    "colors": "1.0.3",
+    "corser": "~2.0.0",
+    "ecstatic": "^3.0.0",
+    "http-proxy": "^1.8.1",
+    "opener": "~1.4.0",
+    "optimist": "0.6.x",
+    "portfinder": "^1.0.13",
+    "union": "~0.4.3"
+  },
+  "deprecated": false,
+  "description": "",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "main": "./lib/http-server-r",
+  "name": "http-server-r",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
 }
